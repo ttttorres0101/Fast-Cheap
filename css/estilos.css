@@ -1,0 +1,67 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "helvetica";
+}
+
+.uno{
+
+    width: 50%;
+    border: 3px solid #000000;
+}
+
+.uno h1,p,a{
+    background: #DFC6C1;
+    color: #000;
+    margin: 10px;
+    padding: 20px;
+}
+
+h1{
+    display: inline;
+}
+
+a{
+    display: inline-block;
+    border-radius: 50px;
+}
+
+
+header{
+    height:400px;
+    background-image: url("../img/portada.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+main{
+    background: white;
+    padding: 20px 30px;
+    
+}
+
+main .foto{
+    width: 150px;
+    height: 150px;
+    background-color: grey;
+    border-radius: 50%;
+    margin: -90px 0 20px 0;
+    border: 6px solid #ffffff;
+}
+
+main .foto img{
+    width:100%;
+    border-radius:50%;
+}
+
+
+footer{
+    background:rgba(20, 11, 100, 0.938) ;
+    text-align: center;
+    padding: 25px;
+    color: #ffffff;
+}
